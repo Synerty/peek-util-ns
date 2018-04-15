@@ -25,9 +25,7 @@
     "nativescript-ngx-fonticon": "^4.1.0",
     "nativescript-sound": "^1.0.4",
     "tns-core-modules": "^4.0.0",
-    "file-system": "^2.2.2",
     "rxjs": "^5.5.6",
-    "ts-md5": "^1.2.0",
     "zone.js": "^0.8.18",
     "@synerty/peek-util": "^0.6.0"
   },
@@ -42,15 +40,14 @@
     "@angular/platform-browser-dynamic": "~5.2.0",
     "@angular/router": "~5.2.0",
     "@synerty/peek-util": "^0.6.0",
-    "file-system": "^2.2.2",
     "nativescript-angular": "^5.3.0",
     "nativescript-ngx-fonticon": "^4.1.0",
     "nativescript-sound": "^1.0.4",
     "ng-packagr": "^2.4.2",
     "rxjs": "^5.5.6",
     "tns-core-modules": "^4.0.0",
-    "ts-md5": "^1.2.0",
     "typescript": "~2.6.0",
     "zone.js": "^0.8.18"
-  }
+  },
+  "dependencies": {}
 }
