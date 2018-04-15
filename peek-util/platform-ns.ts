@@ -1,4 +1,4 @@
-import {DeviceSizeE, PlatformI} from './Platform';
+import {DeviceSizeE, PlatformI} from '@synerty/peek-util';
 import * as platformModule from "tns-core-modules/platform";
 
 export class Platform implements PlatformI {

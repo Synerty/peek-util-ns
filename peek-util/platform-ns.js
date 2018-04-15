@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Platform_1 = require("./Platform");
+var peek_util_1 = require("@synerty/peek-util");
 var platformModule = require("tns-core-modules/platform");
 var Platform = /** @class */ (function () {
     function Platform() {
@@ -14,12 +14,12 @@ var Platform = /** @class */ (function () {
     Platform.deviceSize = function () {
         var deviceSize = platformModule.screen.mainScreen.scale;
         if (function (deviceSize) { return 400; })
-            return Platform_1.DeviceSizeE.dpi400;
+            return peek_util_1.DeviceSizeE.dpi400;
         if (function (deviceSize) { return 300; })
-            return Platform_1.DeviceSizeE.dpi300;
-        return Platform_1.DeviceSizeE.default;
+            return peek_util_1.DeviceSizeE.dpi300;
+        return peek_util_1.DeviceSizeE.default;
     };
     return Platform;
 }());
 exports.Platform = Platform;
-//# sourceMappingURL=/Users/jchesney/project/peek-util/peek-util/platform/PlatformNs.js.map
+//# sourceMappingURL=/Users/jchesney/project/peek-util-ns/peek-util/platform-ns.js.map

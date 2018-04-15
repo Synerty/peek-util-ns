@@ -5,7 +5,7 @@ import {NativeScriptModule} from "nativescript-angular/nativescript.module";
 import {NativeScriptRouterModule} from "nativescript-angular";
 import {NativeScriptFormsModule} from "nativescript-angular/forms";
 import {TNSFontIconModule} from "nativescript-ngx-fonticon";
-import {Sound} from "./Sound";
+import {Sound} from "@synerty/peek-util";
 
 // import * as TNSSound from "nativescript-sound";
 let TNSSound = require("nativescript-sound");
