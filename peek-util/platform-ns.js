@@ -22,4 +22,4 @@ var Platform = /** @class */ (function () {
     return Platform;
 }());
 exports.Platform = Platform;
-//# sourceMappingURL=/Users/jchesney/project/peek-util-ns/peek-util/platform-ns.js.map
+//# sourceMappingURL=/Users/jchesney/dev-peek-util/peek-util-ns/peek-util/platform-ns.js.map
